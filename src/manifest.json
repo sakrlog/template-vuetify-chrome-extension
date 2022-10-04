@@ -1,22 +1,43 @@
 {
-  "name": "template-vuetify-chrome-extension",
-  "description": "template-vuetify-chrome-extension",
+  "name": "Newsela Tool",
+  "description": "Newsela-helper-tools",
   "version": null,
   "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "alarms",
+    "clipboardWrite",
+    "clipboardRead",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "webNavigation"
+  ],
   "icons": {
-    "48": "icons/icon_48.png",
-    "128": "icons/icon_128.png"
+    "48": "icons/newsela-logo.png",
+    "128": "icons/newsela-logo.png"
   },
   "browser_action": {
     "default_title": "extension-ct",
     "default_popup": "popup/popup.html"
   },
   "sandbox": {
-    "pages": ["popup.html"]
- },
+    "pages": [
+      "popup.html"    ]
+  },
   "background": {
     "scripts": [
       "background.js"
     ]
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content/content.js",
+        "content/main-newsela.js"      ]
+    }
+  ]
 }
