@@ -11,7 +11,6 @@ const config = {
   context: __dirname + '/src',
   entry: {
     'background': './background.js',
-    'popup/popup': './popup/popup.js',
     'content/content': './content/content.js',
     'content/main-newsela': './content/main-newsela.js'
   },
@@ -76,7 +75,6 @@ const config = {
     }),
     new CopyPlugin([
       { from: 'icons', to: 'icons', ignore: ['icon.xcf'] },
-      { from: 'popup/popup.html', to: 'popup/popup.html', transform: transformHtml },
       { from: 'content/main-newsela.html', to: 'content/main-newsela.html', transform: transformHtml },
       {
         from: 'manifest.json',
