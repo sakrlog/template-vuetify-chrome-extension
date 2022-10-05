@@ -22,6 +22,7 @@ const config = {
   resolve: {
     extensions: ['.js', '.vue'],
   },
+  // devtool: 'cheap-module-source-map',
   module: {
     rules: [
       {
@@ -83,7 +84,7 @@ const config = {
         transform: (content) => {
           const jsonContent = JSON.parse(content);
           jsonContent.version = version;
-
+          
           if (config.mode === 'development') {
             jsonContent['content_security_policy'] = "script-src 'self' 'unsafe-eval'; object-src 'self'";
           }

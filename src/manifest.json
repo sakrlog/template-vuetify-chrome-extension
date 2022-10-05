@@ -1,43 +1,52 @@
 {
-  "name": "Newsela Tool",
-  "description": "Newsela-helper-tools",
-  "version": null,
-  "manifest_version": 2,
-  "permissions": [
-    "storage",
-    "alarms",
-    "clipboardWrite",
-    "clipboardRead",
-    "tabs",
-    "activeTab",
-    "declarativeContent",
-    "webNavigation"
-  ],
-  "icons": {
-    "48": "icons/newsela-logo.png",
-    "128": "icons/newsela-logo.png"
-  },
-  "browser_action": {
-    "default_title": "extension-ct",
-    "default_popup": "popup/popup.html"
-  },
-  "sandbox": {
-    "pages": [
-      "popup.html"    ]
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*/*"
-      ],
-      "js": [
-        "content/content.js",
-        "content/main-newsela.js"      ]
-    }
-  ]
+    "name": "Newsela Tool",
+    "description": "Newsela-helper-tools",
+    "version": "1",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "alarms",
+        "clipboardWrite",
+        "scripting",
+        "clipboardRead",
+        "tabs",
+        "activeTab",
+        "declarativeContent",
+        "webNavigation"
+    ],
+    "icons": {
+        "48": "icons/newsela-logo.png",
+        "128": "icons/newsela-logo.png"
+    },
+    "action": {
+        "default_title": "extension-ct",
+        "default_popup": "popup/popup.html"
+    },
+    "sandbox": {
+        "pages": [
+            "popup.html",
+            "main-newsela.html"
+        ]
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content/content.js"
+            ],
+            "all_frames": true
+        }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["content/main-newsela.html"],
+          "matches": ["<all_urls>"]
+        }
+      ]
 }

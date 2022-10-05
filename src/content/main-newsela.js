@@ -26,26 +26,6 @@ const router = new VueRouter({
   routes
 })
 
-// let iframe = document.getElementById("newsela-control-bar")
-// var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-// let div = innerDoc.createElement("div")
-// div.id = "app"
-// let app = innerDoc.body.appendChild(div)
-// console.log("iframe", iframe)
-// while(!iframe){
-//   console.log("waiting for the iframe to be created")
-//   iframe = document.getElementById("newsela-control-bar")
-// }
-
-// var all = innerDoc.getElementsByTagName("*");
-
-// for (let y of all) {
-//   console.log("element is:", y)
-// }
-
-// let x = innerDoc.querySelector('.mainapp')
-// console.log("x is:", x)
-
 new Vue({
   el: "#app",
   router,
@@ -56,4 +36,3 @@ new Vue({
   render: h => h(App)
 })
 
-console.log(iframe)
