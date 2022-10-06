@@ -1,6 +1,6 @@
 if (!document.getElementById("newsela-control-bar")) {
   var attr =
-    " position: fixed;left: 0;bottom:0;width: 100%;height: 600px;text-align: center;background: lightblue;z-index: 999999;";
+    " position: fixed;left: 0;bottom:0;width: 100%;height: 600px;text-align: center;background: black;border: 1px solid black;;z-index: 999999;";
   var source = chrome.runtime.getURL("content/main-newsela.html");
   var iframe = getOrCreateEl(
     "newsela-control-bar",
