@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-card flat height="800px" tile>
-      <v-toolbar color="light-blue accent-4" elevation="4" hide-on-scroll >
+      <v-toolbar color="light-blue accent-4" elevation="4" dark>
         <v-toolbar-title>Newsela Helper Tool</v-toolbar-title>
 
         <v-spacer></v-spacer>
@@ -15,6 +15,7 @@
             <v-tab v-for="tab of tabs" :key="tab.id" :to="tab.route" exact>
               {{ tab.name }}
             </v-tab>
+            <v-tabs-slider color="black"></v-tabs-slider>
             <v-tab-item v-for="tab of tabs" :key="tab.id" :value="tab.route">
               <router-view></router-view>
             </v-tab-item>
