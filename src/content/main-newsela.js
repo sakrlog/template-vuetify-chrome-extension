@@ -7,8 +7,9 @@ import VueRouter from 'vue-router';
 import App from './app/App.vue'
 
 //pages
-import Home from './app/pages/home/home.vue'
-import SecondPage from './app/pages/secondPage/SecondPage.vue'
+import siteInfo from './app/pages/siteInfo.vue'
+import searchTools from './app/pages/searchTools.vue'
+import tagExplorer from './app/pages/tagExplorer.vue'
 
 //Uses
 Vue.use(Vuetify);
@@ -18,8 +19,9 @@ global.browser = require('webextension-polyfill')
 Vue.prototype.$browser = global.browser
 
 const routes = [
-  { path: '/home', component: Home },
-  { path: '/secondPage', component: SecondPage },
+  { path: '/siteInfo', component: siteInfo },
+  { path: '/searchTools', component: searchTools },
+  { path: '/tagExplorer', component: tagExplorer}
 ]
 
 const router = new VueRouter({
@@ -31,7 +33,7 @@ new Vue({
   router,
   vuetify: new Vuetify(),
   created() {
-    this.$router.push('home');
+    this.$router.push('firstpage');
   },
   render: h => h(App)
 })

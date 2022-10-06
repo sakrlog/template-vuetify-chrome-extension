@@ -31,10 +31,9 @@ function getOrCreateEl(elId, elTag, parentEl, attributes, source) {
 }
 
 window.addEventListener("message", (event) => {
-  console.log("new message:", event.data)
-  if(event.data.function !== "change-newselas-iframe-size")
-  return
-  console.log("enetered the conetnet script from the other hand", event)
+  if(event.data.function !== "change-newselas-iframe-size") {
+    return
+  }
   var iframe = document.getElementById("newsela-control-bar")
   iframe.style.height = event.data.size
 
