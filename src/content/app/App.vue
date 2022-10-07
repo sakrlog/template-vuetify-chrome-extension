@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-card flat height="750px" tile>
+    <v-card flat height="750px" tile> 
       <v-toolbar color="#0a6efa" elevation="4" dark>
         <v-toolbar-title>Newsela Helper Tool</v-toolbar-title>
 

@@ -2,29 +2,59 @@
   <v-container class="black_texts" fluid>
     <v-row>
       <v-col md="6">
-        <v-btn @click="getData()"> trigger </v-btn>
+        <v-card height="615px" class="overflow-y-auto">
+          <v-list two-line v-if="items !== null">
+            <v-list-item-group active-class="blue--text">
+              <template v-for="(item, index) in items" :key="item.name">
+                <v-list-item
+                  @click="handleDetailedView(item.rights ? item.rights : null)"
+                >
+                  <template v-slot:default="{ active }">
+                    <v-list-item-content>
+                      <v-list-item-title v-text="item.name"></v-list-item-title>
+
+                      <v-list-item-subtitle>{{
+                        item.host
+                      }}</v-list-item-subtitle>
+                    </v-list-item-content>
+                  </template>
+                </v-list-item>
+
+                <v-divider
+                  v-if="index < items.length - 1"
+                  :key="index"
+                ></v-divider>
+              </template>
+            </v-list-item-group>
+          </v-list>
+        </v-card>
       </v-col>
       <v-divider vertical></v-divider>
       <v-col md="6">
-        <v-data-table
-          v-if="infos !== null"
-          :headers="headers"
-          :items="infos"
-          :items-per-page="10"
-          class="elevation-1"
-        ></v-data-table>
+        <v-card height="620px" class="overflow-y-auto">
+          <v-data-table
+            v-if="specific_table_infos !== null"
+            :headers="specific_table_headers"
+            :items="specific_table_infos"
+            :items-per-page="10"
+            class="elevation-1"
+          ></v-data-table>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import _ from "lodash";
+
 export default {
   name: "SiteInfo",
   data() {
     return {
-      count: 10,
-      headers: [
+      initial: null,
+      items: null,
+      specific_table_headers: [
         {
           text: "Element",
           align: "start",
@@ -33,20 +63,24 @@ export default {
         },
         { text: "Value", value: "value" },
       ],
-      infos: null,
+      specific_table_infos: null,
     };
   },
+  created() {
+    var jsonsource = chrome.runtime.getURL("static/newsela_config.json");
+    fetch(jsonsource)
+      .then((response) => response.json()) //assuming file contains json
+      .then((json) => {
+        this.items = json.newsela;
+      });
+  },
   methods: {
-    getData: function () {
-      this.count += 1
-      var jsonsource = chrome.runtime.getURL("static/newsela_config.json");
-      fetch(jsonsource)
-        .then((response) => response.json()) //assuming file contains json
-        .then((json) => {
-          this.infos = json.newsela[this.count].rights
-        });
-    }
-  }
+    handleDetailedView(tableData) {
+      if (tableData) {
+        this.specific_table_infos = tableData;
+      }
+    },
+  },
 };
 </script>
 
