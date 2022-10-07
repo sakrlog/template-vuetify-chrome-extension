@@ -1,0 +1,3646 @@
+{
+	"newsela": [
+		{
+			"name": "Monday.com",
+			"type": "internal-tool",
+			"host": "forms.monday.com",
+			"pathname": "/forms/4fe19f232e87e94e456d095aaf5b13c6"
+		},
+		{
+			"name": "Content Query Explorer",
+			"type": "internal-tool",
+			"host": "trends.x.newsela.com",
+			"pathname": "/"
+		},
+		{
+			"name": "99% Invisible",
+			"host": "99percentinvisible.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "99% Invisible"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://99percentinvisible.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, 99% Invisible\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By 99% Invisible, adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "99%invisible"
+		},
+		{
+			"name": "World History Encyclopedia",
+			"host": "www.ancient.eu",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "World History Encyclopedia"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Video, IC, Graphics, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes,  ~1 week response;  75% likely approved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "No - invoiced for every request"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.ancient.eu/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, Ancient History Encyclopedia”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Ancient History Encyclopedia, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "worldhistoryencyclopedia"
+		},
+		{
+			"name": "Atlas Obscura",
+			"host": "www.atlasobscura.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Atlas Obscura"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.atlasobscura.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": null
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "\"No guaranteed image rights"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "but initially"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "Editorial is welcome to reach out directly to the author/photographers for permission."
+				}
+			],
+			"type": "partner",
+			"id": "atlasobscura"
+		},
+		{
+			"name": "Cato Institute",
+			"host": "www.cato.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Cato Institute"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.cato.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, The Cato Institute”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By The Cato Institute, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "catoinstitute"
+		},
+		{
+			"name": "Cesar Chavez Foundation - Biography",
+			"host": "chavezfoundation.org",
+			"pathname": "/licensing/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Cesar Chavez Foundation - Biography"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "n/a - one time"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Spanish"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://chavezfoundation.org/licensing/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "?"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "?"
+				},
+				{
+					"element": "Copyright line",
+					"value": "\"\"TM/© 2016 The Cesar Chavez Foundation www.chavezfoundation.org\"\""
+				}
+			],
+			"type": "partner",
+			"id": "cesarchavezfoundation-biography"
+		},
+		{
+			"name": "Cesar Chavez Foundation - Speeches",
+			"host": "chavezfoundation.org",
+			"pathname": "/licensing/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Cesar Chavez Foundation - Speeches"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "n/a - one time"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Spanish"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://chavezfoundation.org/licensing/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "?"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "?"
+				},
+				{
+					"element": "Copyright line",
+					"value": "\"\"TM/© 2016 The Cesar Chavez Foundation www.chavezfoundation.org\"\""
+				}
+			],
+			"type": "partner",
+			"id": "cesarchavezfoundation-speeches"
+		},
+		{
+			"name": "Famous Scientists",
+			"host": "www.famousscientists.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Famous Scientists"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, Science"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Spanish"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.famousscientists.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Famous Scientists”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Famous Scientists, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "famousscientists"
+		},
+		{
+			"name": "Greater Good Science Center",
+			"host": "greatergood.berkeley.edu",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Greater Good Science Center"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "Science, SEL"
+				},
+				{
+					"element": "Topics",
+					"value": "SEL"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio, Video, IC"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes, 2+ weeks response; less than 50% likely apprpoved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://greatergood.berkeley.edu/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Greater Good Science Center”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Greater Good Science Center, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "greatergoodsciencecenter"
+		},
+		{
+			"name": "Hechinger Report",
+			"host": "hechingerreport.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Hechinger Report"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be FREE"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://hechingerreport.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Hechinger Report”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Hechinger Report, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "hechingerreport"
+		},
+		{
+			"name": "HistoryLink",
+			"host": "historylink.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "HistoryLink"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Graphics"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://historylink.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, HistoryLink” "
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“From HistoryLink, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "historylink"
+		},
+		{
+			"name": "Honolulu Civil Beat",
+			"host": "www.civilbeat.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Honolulu Civil Beat"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.civilbeat.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": " “By John Doe, Honolulu Civil Beat”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": " “From Honolulu Civil Beat, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "honolulucivilbeat"
+		},
+		{
+			"name": "Human Rights Watch",
+			"host": "www.hrw.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Human Rights Watch"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.hrw.org"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Human Rights Watch”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Human Rights Watch, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "humanrightswatch"
+		},
+		{
+			"name": "Massive Science",
+			"host": "massivesci.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Massive Science"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "Science, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://massivesci.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "?"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "?"
+				},
+				{
+					"element": "Copyright line",
+					"value": "?"
+				}
+			],
+			"type": "partner",
+			"id": "massivescience"
+		},
+		{
+			"name": "Mongabay",
+			"host": "news.mongabay.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Mongabay"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "Science"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": null
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://news.mongabay.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Mongabay”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Mongabay, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "mongabay"
+		},
+		{
+			"name": "New Georgia Encyclopedia",
+			"host": "www.georgiaencyclopedia.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "New Georgia Encyclopedia"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "state"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, IC, Graphics"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.georgiaencyclopedia.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, New Georgia Encyclopedia\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By New Georgia Encyclopedia, adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "“The New Georgia Encyclopedia is a program of the Georgia Humanities Council in partnership with the University of Georgia Press, the University System of Georgia/GALILEO, and the Office of the Governor.”"
+				}
+			],
+			"type": "partner",
+			"id": "newgeorgiaencyclopedia"
+		},
+		{
+			"name": "PBS NewsHour",
+			"host": "www.pbs.org",
+			"pathname": "/newshour/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "PBS NewsHour"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video, IC"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.pbs.org/newshour/?utm_source=promourl&utm_medium=direct&utm_campaign=newshour"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "MUST be created by NewsHour"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, PBS NewsHour”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"“By PBS NewsHour"
+				},
+				{
+					"element": "Copyright line",
+					"value": "adapted by Newsela staff”"
+				}
+			],
+			"type": "partner",
+			"id": "pbsnewshour"
+		},
+		{
+			"name": "Project Syndicate",
+			"host": "www.project-syndicate.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Project Syndicate"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "No; English only"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.project-syndicate.org/?gclid=EAIaIQobChMI76nolrn35AIVEMZkCh15HApCEAAYASAAEgJxe_D_BwE"
+				},
+				{
+					"element": "Wire username",
+					"value": "partners@newsela.com"
+				},
+				{
+					"element": "Wire PW",
+					"value": "R3adbabyread"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, Project Syndicate”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By Project Syndicate, adapted by Newsela staff"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "projectsyndicate"
+		},
+		{
+			"name": "Science Friday",
+			"host": "www.sciencefriday.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Science Friday"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "Science"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes,  ~1 week response;  75% likely approved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be FREE"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.sciencefriday.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "\"Excerpt must maintain the larger spirit/intention of the original piece."
+				}
+			],
+			"type": "partner",
+			"id": "sciencefriday"
+		},
+		{
+			"name": "Scientific American",
+			"host": "feedly.com",
+			"pathname": "/i/collection/content/user/c9d4cc4e-8a36-4ea2-a302-4fa8393c8e25/category/Scientific%20American",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Scientific American"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, Science, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes, ~2day response; 99% likely approved (requesting files)"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "No - invoiced for every request"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be Behind Paywall"
+				},
+				{
+					"element": "Translations",
+					"value": "Must use their translations, if available"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://feedly.com/i/collection/content/user/c9d4cc4e-8a36-4ea2-a302-4fa8393c8e25/category/Scientific%20American"
+				},
+				{
+					"element": "Wire username",
+					"value": "partners@newsela.com"
+				},
+				{
+					"element": "Wire PW",
+					"value": "R3adbabyread"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "\"Articles must have red “Rights and Permissions”  text at the bottom of the article"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "just above the author bio."
+				}
+			],
+			"type": "partner",
+			"id": "scientificamerican"
+		},
+		{
+			"name": "Short Story Project",
+			"host": "www.shortstoryproject.com",
+			"pathname": "/onboarding/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Short Story Project"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "ELA"
+				},
+				{
+					"element": "Topics",
+					"value": "Fiction"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Must NOT level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "No; English only"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.shortstoryproject.com/onboarding/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "No"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, Short Story Project”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "n/a"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "shortstoryproject"
+		},
+		{
+			"name": "Smithsonian Institution",
+			"host": "www.smithsonianmag.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Smithsonian Institution"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Graphics"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.smithsonianmag.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "Only articles with byline \"\"By Smithsonianmag.com\"\" or \"\"Smithsonian.com\"\" — NOT \"\"By Smithsonian Magazine\""
+				}
+			],
+			"type": "partner",
+			"id": "smithsonianinstitution"
+		},
+		{
+			"name": "The Advocate",
+			"host": "www.theadvocate.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Advocate"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "state"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.theadvocate.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "?"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "?"
+				},
+				{
+					"element": "Copyright line",
+					"value": "?"
+				}
+			],
+			"type": "partner",
+			"id": "theadvocate"
+		},
+		{
+			"name": "The Art Story",
+			"host": "www.theartstory.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Art Story"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "ELA"
+				},
+				{
+					"element": "Topics",
+					"value": "Specials"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.theartstory.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "If we use an excerpt of an article, then later decide to use much more of that article, we MUST get approval."
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By TheArtStory.org\""
+				}
+			],
+			"type": "partner",
+			"id": "theartstory"
+		},
+		{
+			"name": "The Conversation",
+			"host": "theconversation.com",
+			"pathname": "/us",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Conversation"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes,  ~1 week response;  75% likely approved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall Sensitive"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://theconversation.com/us"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "No - case-by-case"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "“By John Doe, The Conversation”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By The Conversation, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "theconversation"
+		},
+		{
+			"name": "The Marshall Project",
+			"host": "www.themarshallproject.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Marshall Project"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.themarshallproject.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, The Marshall Project”"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By The Marshall Project, adapted by Newsela staff”"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "themarshallproject"
+		},
+		{
+			"name": "ThoughtCo",
+			"host": "www.thoughtco.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "ThoughtCo"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included with article it came with, no other use"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.thoughtco.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": " “By John Doe, ThoughtCo.\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By ThoughtCo., adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "thoughtco"
+		},
+		{
+			"name": "The Gilder Lehrman Institute of American History",
+			"host": "gilderlehrman.org",
+			"pathname": "/community/user/login",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Gilder Lehrman Institute of American History"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "http://gilderlehrman.org/community/user/login?destination=home"
+				},
+				{
+					"element": "Wire username",
+					"value": "partners@newsela.com"
+				},
+				{
+					"element": "Wire PW",
+					"value": "R3adbabyread!"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "\"\"\"History by Era\"\" section ONLY;"
+				}
+			],
+			"type": "partner",
+			"id": "thegilderlehrmaninstituteofamericanhistory"
+		},
+		{
+			"name": "WGBH (PBS)",
+			"host": "www.wgbh.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "WGBH (PBS)"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video, Audio"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes, 2+ weeks response; less than 50% likely apprpoved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "No - invoiced for every request"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be FREE"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.wgbh.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By WGBH Educational Foundation\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By WGBH Educational Foundation, adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "wgbh(pbs)"
+		},
+		{
+			"name": "WikiHow",
+			"host": "www.wikihow.com",
+			"pathname": "/Main-Page",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "WikiHow"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, Science"
+				},
+				{
+					"element": "Topics",
+					"value": "Specials"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Video, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes,  ~1 week response;  75% likely approved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "No - invoiced for every request"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Spanish"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.wikihow.com/Main-Page"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By WikiHow\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "“By WikiHow, adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "wikihow"
+		},
+		{
+			"name": "Zinn Education Project",
+			"host": "www.zinnedproject.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Zinn Education Project"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "IC, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes, 2+ weeks response; less than 50% likely apprpoved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Must review leveling"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be FREE"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.zinnedproject.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "No"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, Zinn Education Project\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By John Doe, Zinn Education Project, adapted by Newsela staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "zinneducationproject"
+		},
+		{
+			"name": "Honored",
+			"host": "www.honored.org",
+			"pathname": "/our-honorees/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Honored"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.honored.org/our-honorees/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By Jane Doe, Honored\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By Honored, Adapted by Newsela Staff\""
+				}
+			],
+			"type": "partner",
+			"id": "honored"
+		},
+		{
+			"name": "Texas Observer",
+			"host": "texasobserver.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Texas Observer"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "TX, longform"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Audio, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "http://texasobserver.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "By Jane Doe, Texas Observer"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "By Texas Observer, Adapted by Newsela Staff"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "texasobserver"
+		},
+		{
+			"name": "Voices of a People's History",
+			"host": "peopleshistory.us",
+			"pathname": "/videos/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Voices of a People's History"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "USHistory"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://peopleshistory.us/videos/"
+				},
+				{
+					"element": "Wire username",
+					"value": null
+				},
+				{
+					"element": "Wire PW",
+					"value": null
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "No"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "voicesofapeople'shistory"
+		},
+		{
+			"name": "Australian Geographic",
+			"host": "www.australiangeographic.com.au",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Australian Geographic"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, Science"
+				},
+				{
+					"element": "Topics",
+					"value": "AUS"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.australiangeographic.com.au/"
+				},
+				{
+					"element": "Wire username",
+					"value": null
+				},
+				{
+					"element": "Wire PW",
+					"value": null
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "Only can use images available through their image portal"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "australiangeographic"
+		},
+		{
+			"name": "Tennessee Historical Society",
+			"host": "www.tennesseehistory.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Tennessee Historical Society"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "TN, state"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "Yes, 1+ week response; 75% likely approved"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.tennesseehistory.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "Must request new articles in batches"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "Standard"
+				},
+				{
+					"element": "Copyright line",
+					"value": "N/A"
+				}
+			],
+			"type": "partner",
+			"id": "tennesseehistoricalsociety"
+		},
+		{
+			"name": "National Endowment for the Humanities",
+			"host": "www.neh.gov",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "National Endowment for the Humanities"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.neh.gov/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, National Endowment for the Humanities\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By National Endowment for the Humanities, adapted by Newsela staff\""
+				}
+			],
+			"type": "partner",
+			"id": "nationalendowmentforthehumanities"
+		},
+		{
+			"name": "Texas Tribune",
+			"host": "www.texastribune.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Texas Tribune"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "TX, state"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text, Video"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.texastribune.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "only licensable if owned by Texas Tribune. Beware of articles by WaPo, etc."
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "\"\"By John Doe, The Texas Tribune\"\""
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "\"\"By The Texas Tribune, adapted by Newsela Staff\"\""
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "texastribune"
+		},
+		{
+			"name": "The Undefeated (Andscape)",
+			"host": "theundefeated.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "The Undefeated (Andscape)"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, ELA, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://theundefeated.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "\"Case-by-case"
+				}
+			],
+			"type": "partner",
+			"id": "theundefeated(andscape)"
+		},
+		{
+			"name": "Learning for Justice",
+			"host": "www.tolerance.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Learning for Justice"
+				},
+				{
+					"element": "Owner",
+					"value": "Shelby Marter"
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS, SEL, ELA, News"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "IC, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be FREE"
+				},
+				{
+					"element": "Translations",
+					"value": "No; English only"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.tolerance.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "\"These are the guidelines:"
+				}
+			],
+			"type": "partner",
+			"id": "learningforjustice"
+		},
+		{
+			"name": "Texas PBS (TexasOurTexas)",
+			"host": "texasourtexas.texaspbs.org",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Texas PBS (TexasOurTexas)"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "No image rights"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "Yes - invoiced by # published"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://texasourtexas.texaspbs.org/"
+				},
+				{
+					"element": "Wire username",
+					"value": null
+				},
+				{
+					"element": "Wire PW",
+					"value": null
+				},
+				{
+					"element": "Access Exceptions",
+					"value": null
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": null
+				},
+				{
+					"element": "MAX Byline",
+					"value": "By Jane Doe, Texas PBS"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "By Texas PBS, adapted by Newsela Staff"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "texaspbs(texasourtexas)"
+		},
+		{
+			"name": "Wonder Media Network (Encyclopedia Womannica)",
+			"host": "encyclopedia-womannica.simplecast.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Wonder Media Network (Encyclopedia Womannica)"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "SS"
+				},
+				{
+					"element": "Topics",
+					"value": "biographies"
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Audio, Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "N/A"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Must be Behind Paywall"
+				},
+				{
+					"element": "Translations",
+					"value": "No; English only"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://encyclopedia-womannica.simplecast.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "n/a"
+				},
+				{
+					"element": "Wire PW",
+					"value": "n/a"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "n/a"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "Yes — okay to remove transcriptions of any intros and/or advertisements included within the underlying Episodes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "By Encyclopedia Womannica"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "By Encyclopedia Womannica, adapted by Newsela staff"
+				},
+				{
+					"element": "Copyright line",
+					"value": "“This biography was originally published by Wonder Media Network via the podcast, Encyclopedia Womannica. Newsela adapted the original work and is responsible for all revisions and for any errors that may result from the adaptation.”"
+				}
+			],
+			"type": "partner",
+			"id": "wondermedianetwork(encyclopediawomannica)"
+		},
+		{
+			"name": "Toronto Star",
+			"host": "www.thestar.com",
+			"pathname": "/",
+			"rights": [
+				{
+					"element": "Name",
+					"value": "Toronto Star"
+				},
+				{
+					"element": "Owner",
+					"value": null
+				},
+				{
+					"element": "Subject Alignment",
+					"value": "News, SS"
+				},
+				{
+					"element": "Topics",
+					"value": null
+				},
+				{
+					"element": "Formats They Have",
+					"value": "Text"
+				},
+				{
+					"element": "Must Request Individual Articles?",
+					"value": "No request necessary"
+				},
+				{
+					"element": "Image Rights",
+					"value": "Included when available and owned by partner"
+				},
+				{
+					"element": "Leveling",
+					"value": "Can level"
+				},
+				{
+					"element": "OK to over-request?",
+					"value": "n/a"
+				},
+				{
+					"element": "Paywall",
+					"value": "Paywall OK"
+				},
+				{
+					"element": "Translations",
+					"value": "Any language"
+				},
+				{
+					"element": "Where to Access",
+					"value": "Public website(s)"
+				},
+				{
+					"element": "Access URLs",
+					"value": "https://www.thestar.com/"
+				},
+				{
+					"element": "Wire username",
+					"value": "jenath.jalal@newsela.com"
+				},
+				{
+					"element": "Wire PW",
+					"value": "READBabyREAD1!"
+				},
+				{
+					"element": "Access Exceptions",
+					"value": "Many of the images/graphics are not owned by the Star, be careful to check ownership"
+				},
+				{
+					"element": "Ok to chop MAX?",
+					"value": "yes"
+				},
+				{
+					"element": "MAX Byline",
+					"value": "By Jane Doe, Toronto Star"
+				},
+				{
+					"element": "Leveled Byline",
+					"value": "By Toronto Star, adapted by Newsela Staff"
+				},
+				{
+					"element": "Copyright line",
+					"value": "None"
+				}
+			],
+			"type": "partner",
+			"id": "torontostar"
+		}
+	]
+}

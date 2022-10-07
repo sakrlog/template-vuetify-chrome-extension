@@ -43,7 +43,7 @@
     ],
     "web_accessible_resources": [
         {
-          "resources": ["content/main-newsela.html"],
+          "resources": ["content/main-newsela.html","static/newsela_config.json"],
           "matches": ["<all_urls>"]
         }
       ]

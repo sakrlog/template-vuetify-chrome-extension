@@ -75,6 +75,7 @@ const config = {
     }),
     new CopyPlugin([
       { from: 'icons', to: 'icons', ignore: ['icon.xcf'] },
+      {from: 'static', to: 'static'},
       { from: 'content/main-newsela.html', to: 'content/main-newsela.html', transform: transformHtml },
       {
         from: 'manifest.json',
