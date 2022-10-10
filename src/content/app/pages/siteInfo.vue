@@ -2,10 +2,18 @@
   <v-container class="black_texts" fluid>
     <v-row>
       <v-col md="6">
-        <v-card height="615px" class="overflow-y-auto">
-          <v-list two-line v-if="items !== null">
+        <v-select
+            v-model="selected_filters"
+            :items="items_filters"
+            attach
+            chips
+            label="Subject"
+            @change="filterListView($event)"
+          ></v-select>
+        <v-card height="550px" class="overflow-y-auto">
+          <v-list two-line v-if="items_to_display !== null">
             <v-list-item-group active-class="blue--text">
-              <template v-for="(item, index) in items" :key="item.name">
+              <template v-for="(item, index) in items_to_display" :key="item.name">
                 <v-list-item
                   @click="handleDetailedView(item.rights ? item.rights : null)"
                 >
@@ -21,7 +29,7 @@
                 </v-list-item>
 
                 <v-divider
-                  v-if="index < items.length - 1"
+                  v-if="index < items_to_display.length - 1"
                   :key="index"
                 ></v-divider>
               </template>
@@ -52,8 +60,10 @@ export default {
   name: "SiteInfo",
   data() {
     return {
-      initial: null,
       items: null,
+      items_to_display: null,
+      items_filters: ["-ALL-"],
+      selected_filters: [],
       specific_table_headers: [
         {
           text: "Element",
@@ -71,7 +81,22 @@ export default {
     fetch(jsonsource)
       .then((response) => response.json()) //assuming file contains json
       .then((json) => {
+        this.items_to_display = json.newsela;
         this.items = json.newsela;
+        json.newsela.forEach(item => {
+          if(item.rights) {
+            item.rights.forEach(right => {
+              if(right.element == "Subject Alignment") {
+                const subjects = right.value.split(",");
+                subjects.forEach(subject => {
+                  if(this.items_filters.indexOf(subject.trim()) == -1) {
+                    this.items_filters.push(subject.trim())
+                  }
+                })
+              }
+            })
+          }
+        })
       });
   },
   methods: {
@@ -80,6 +105,27 @@ export default {
         this.specific_table_infos = tableData;
       }
     },
+    filterListView(filter) {
+      if(filter == "-ALL-") {
+        this.items_to_display = this.items
+      } else {
+        // The function should filter any value it gets
+        const current_filtered = []
+        this.items.forEach(item => {
+          if(item.rights) {
+            item.rights.forEach(right => {
+              if(right.element == "Subject Alignment") {
+                if(right.value.includes(filter)) {
+                  current_filtered.push(item)
+                }
+              }
+            })
+          }
+        })
+        this.items_to_display = current_filtered
+      }
+
+    }
   },
 };
 </script>
