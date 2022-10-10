@@ -23,7 +23,7 @@
         </template>
       </v-toolbar>
     </v-card>
-    <v-bottom-navigation grow>
+    <v-bottom-navigation grow background-color="#0a6efa" dark>
       <v-btn href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">
         <span>Request Article</span>
       </v-btn>
