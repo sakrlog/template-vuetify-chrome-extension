@@ -23,6 +23,7 @@
               class="ma-2"
               :color="alexandriaChipColor ? '#0a6efa' : null"
               @click="chipClick('alexandria')"
+              :disabled="parentWindowDetails?false:true"
             >
               ALEXANDRIA
             </v-chip>
@@ -30,7 +31,7 @@
         </v-row>
         <v-card height="550px" class="overflow-y-auto">
           <v-alert v-if="alertWindow" outlined type="warning" prominent>
-            {{alertWindow}}
+            {{ alertWindow }}
           </v-alert>
           <v-list two-line v-if="items_to_display !== null">
             <v-list-item-group active-class="blue--text">
@@ -79,6 +80,7 @@ export default {
   name: "SearchTools",
   data() {
     return {
+      parentWindowDetails: null,
       options: { q: "history" },
       newselaChipColor: true,
       alexandriaChipColor: false,
@@ -106,6 +108,20 @@ export default {
     if (json && json.results) {
       this.items_to_display = json.results;
     }
+
+    //Get the parent url that alexandria uses
+    window.parent.postMessage("getParentWindowDetails", "*");
+      window.addEventListener(
+        "message",
+        (event) => {
+          if (event.data.message !== "window_location_href") {
+            return;
+          }
+          this.parentWindowDetails = event.data.parent
+        },
+        false
+      );
+
   },
   methods: {
     handleDetailedView() {},
@@ -113,16 +129,16 @@ export default {
       if (chip == "alexandria") {
         // If alexandria filter is clicked
         this.alertWindow = null;
-        this.items_to_display = null
+        this.items_to_display = null;
         this.newselaChipColor = false;
         this.alexandriaChipColor = "#0a6efa";
 
         let rootUrl =
-          window.parent.location.protocol + "//" + window.parent.location.hostname;
+          this.parentWindowDetails.protocol + "//" + this.parentWindowDetails.hostname;
 
         let newselaConfig = chrome.runtime.getURL("static/newsela_config.json");
-        let known_sites = await (await fetch(newselaConfig)).json()
-        
+        let known_sites = await (await fetch(newselaConfig)).json();
+
         let searchType = this.getPageInfo(known_sites.newsela)
           ? "original"
           : "external";
@@ -149,7 +165,11 @@ export default {
         ) {
           this.items_to_display = json.data.contents;
         } else {
-          this.alertWindow = "No objects ("+searchType+") were found in newsela which start with the url: " + rootUrl;
+          this.alertWindow =
+            "No objects (" +
+            searchType +
+            ") were found in newsela which start with the url: " +
+            rootUrl;
         }
       } else {
         // If newsela filter is clicked
@@ -164,14 +184,14 @@ export default {
         if (json && json.results) {
           this.items_to_display = json.results;
         } else {
-          this.alertWindow = "No results were found on newsela.com with the query: " + this.options.q
+          this.alertWindow =
+            "No results were found on newsela.com with the query: " +
+            this.options.q;
         }
       }
     },
     getPageInfo(known_sites) {
-      //TODO: I should find a way to get the right URL
-      // parent.postMessage("getURL", "*")
-      let url = new URL(window.parent.location.href);
+      let url = new URL(this.parentWindowDetails.href)
       let site_info = false;
 
       known_sites.some(function (entry) {

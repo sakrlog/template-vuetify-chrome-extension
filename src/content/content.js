@@ -16,10 +16,9 @@ function getOrCreateEl(elId, elTag, parentEl, attributes, source) {
   if (!el) {
     el = document.createElement(elTag || "div");
     el.id = elId;
-    if(source) {
+    if (source) {
       el.src = source;
     }
-    // el.setAttribute('allow', '');
     if (attributes) {
       el.setAttribute("style", attributes);
     }
@@ -30,12 +29,22 @@ function getOrCreateEl(elId, elTag, parentEl, attributes, source) {
   return el;
 }
 
-window.addEventListener("message", (event) => {
-  if(event.data.function !== "change-newselas-iframe-size") {
-    return
-  }
-  var iframe = document.getElementById("newsela-control-bar")
-  iframe.style.height = event.data.size
+window.addEventListener(
+  "message",
+  (event) => {
+    if (event.data !== "getParentWindowDetails") {
+      return;
+    }
 
-  // …
-}, false);
+    let data = {
+      message: "window_location_href",
+      parent: {
+        href: window.location.href,
+        hostname: window.location.hostname,
+        protocol: window.location.protocol
+      }
+    };
+    iframe.contentWindow.postMessage(data, "*");
+  },
+  false
+);
