@@ -23,16 +23,18 @@
               class="ma-2"
               :color="alexandriaChipColor ? '#0a6efa' : null"
               @click="chipClick('alexandria')"
-              :disabled="parentWindowDetails?false:true"
+              :disabled="parentWindowDetails ? false : true"
             >
               ALEXANDRIA
             </v-chip>
           </v-col>
         </v-row>
         <v-card height="550px" class="overflow-y-auto">
-          <v-alert v-if="alertWindow" outlined type="warning" prominent>
-            {{ alertWindow }}
-          </v-alert>
+          <v-card-text v-if="alertWindow">
+            <v-alert outlined type="warning" prominent>
+              {{ alertWindow }}
+            </v-alert>
+          </v-card-text>
           <v-list two-line v-if="items_to_display !== null">
             <v-list-item-group active-class="blue--text">
               <template
@@ -51,10 +53,8 @@
                       <v-list-item-subtitle>{{
                         "https://www.newsela.com" + item.url
                       }}</v-list-item-subtitle>
-
-                      <v-list-item-subtitle
-                        v-text="item.description"
-                      ></v-list-item-subtitle>
+                      
+                      {{item.description}}
                     </v-list-item-content>
                   </template>
                 </v-list-item>
@@ -111,17 +111,16 @@ export default {
 
     //Get the parent url that alexandria uses
     window.parent.postMessage("getParentWindowDetails", "*");
-      window.addEventListener(
-        "message",
-        (event) => {
-          if (event.data.message !== "window_location_href") {
-            return;
-          }
-          this.parentWindowDetails = event.data.parent
-        },
-        false
-      );
-
+    window.addEventListener(
+      "message",
+      (event) => {
+        if (event.data.message !== "window_location_href") {
+          return;
+        }
+        this.parentWindowDetails = event.data.parent;
+      },
+      false
+    );
   },
   methods: {
     handleDetailedView() {},
@@ -134,7 +133,9 @@ export default {
         this.alexandriaChipColor = "#0a6efa";
 
         let rootUrl =
-          this.parentWindowDetails.protocol + "//" + this.parentWindowDetails.hostname;
+          this.parentWindowDetails.protocol +
+          "//" +
+          this.parentWindowDetails.hostname;
 
         let newselaConfig = chrome.runtime.getURL("static/newsela_config.json");
         let known_sites = await (await fetch(newselaConfig)).json();
@@ -191,7 +192,7 @@ export default {
       }
     },
     getPageInfo(known_sites) {
-      let url = new URL(this.parentWindowDetails.href)
+      let url = new URL(this.parentWindowDetails.href);
       let site_info = false;
 
       known_sites.some(function (entry) {
