@@ -26,15 +26,18 @@
     <v-bottom-navigation grow background-color="#0a6efa" dark>
       <v-btn href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">
         <span>Request Article</span>
+        <v-icon>mdi-chat-question-outline</v-icon>
       </v-btn>
       <v-btn
         href="https://github.com/sakrlog/template-vuetify-chrome-extension/blob/master/src/content/app/pages/secondPage/SecondPage.vue"
         target="_blank"
       >
         <span>Content Explorer</span>
+        <v-icon>mdi-compass-outline</v-icon>
       </v-btn>
       <v-btn href="https://router.vuejs.org/guide/#javascript" target="_blank">
         <span>Feedback</span>
+        <v-icon>mdi-message-alert-outline</v-icon>
       </v-btn>
     </v-bottom-navigation>
   </v-app>
