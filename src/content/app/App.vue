@@ -26,7 +26,7 @@
     <v-bottom-navigation grow background-color="#0a6efa" dark>
       <v-btn href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">
         <span>Request Article</span>
-        <v-icon>mdi-chat-question-outline</v-icon>
+        <v-icon>mdi-cloud-search-outline</v-icon>
       </v-btn>
       <v-btn
         href="https://github.com/sakrlog/template-vuetify-chrome-extension/blob/master/src/content/app/pages/secondPage/SecondPage.vue"

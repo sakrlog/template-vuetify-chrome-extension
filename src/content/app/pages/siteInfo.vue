@@ -10,7 +10,7 @@
             label="Subject"
             @change="filterListView($event)"
           ></v-select>
-        <v-card height="550px" class="overflow-y-auto">
+        <v-card height="560px" class="overflow-y-auto" elevation="0">
           <v-list two-line v-if="items_to_display !== null">
             <v-list-item-group active-class="blue--text">
               <template v-for="(item, index) in items_to_display" :key="item.name">
@@ -39,7 +39,7 @@
       </v-col>
       <v-divider vertical></v-divider>
       <v-col md="6">
-        <v-card height="620px" class="overflow-y-auto">
+        <v-card height="630px" class="overflow-y-auto">
           <v-data-table
             v-if="specific_table_infos !== null"
             :headers="specific_table_headers"

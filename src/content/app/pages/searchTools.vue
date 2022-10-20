@@ -29,7 +29,7 @@
             </v-chip>
           </v-col>
         </v-row>
-        <v-card height="550px" class="overflow-y-auto">
+        <v-card height="560px" class="overflow-y-auto">
           <v-card-text v-if="alertWindow">
             <v-alert outlined type="warning" prominent>
               {{ alertWindow }}

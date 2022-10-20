@@ -1,6 +1,6 @@
 {
-    "name": "Newsela Tool",
-    "description": "Newsela-helper-tools",
+    "name": "Newsela Editorial Helper JAD",
+    "description": "This plugin is intended for internal use at Newsela.",
     "version": "1",
     "manifest_version": 3,
     "permissions": [
